@@ -6,3 +6,6 @@ inline val PluginDependenciesSpec.application: PluginDependencySpec
 
 inline val PluginDependenciesSpec.kotlinAndroid: PluginDependencySpec
     get() = id("org.jetbrains.kotlin.android")
+
+inline val PluginDependenciesSpec.hiltAndroid: PluginDependencySpec
+    get() = id("dagger.hilt.android.plugin")
