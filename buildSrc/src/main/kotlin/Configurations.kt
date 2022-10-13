@@ -8,4 +8,13 @@ object Configurations {
     
     const val nameSpace = "com.zhixue.lite"
     const val applicationId = "com.zhixue.lite"
+    
+    const val release = "release"
+    const val minifyEnabled = true
+    const val shrinkResourcesEnabled = true
+    
+    const val composeEnabled = true
+    const val composeCompilerVersion = "1.3.1"
+    
+    const val defProguardFile = "proguard-android-optimize.txt"
 }
