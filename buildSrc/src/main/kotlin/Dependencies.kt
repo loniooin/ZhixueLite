@@ -32,4 +32,17 @@ object Libs {
         const val retrofit2 = "com.squareup.retrofit2:retrofit:$retrofitVersion"
         const val retrofitConverter = "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
     }
+    
+    object Accompanist {
+        private const val accompanistVersion = "0.25.1"
+        
+        const val sysUiController =
+            "com.google.accompanist:accompanist-systemuicontroller:$accompanistVersion"
+        const val swipeRefresh =
+            "com.google.accompanist:accompanist-swiperefresh:$accompanistVersion"
+        const val webView = "com.google.accompanist:accompanist-webview:$accompanistVersion"
+        const val viewPager = "com.google.accompanist:accompanist-pager:$accompanistVersion"
+        const val permissions = "com.google.accompanist:accompanist-permissions:$accompanistVersion"
+        const val placeholder = "com.google.accompanist:accompanist-placeholder:$accompanistVersion"
+    }
 }
