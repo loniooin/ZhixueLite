@@ -16,6 +16,12 @@ object Libs {
         const val hiltCompiler = "com.google.dagger:hilt-compiler:$hiltVersion"
     }
     
+    object AndroidX {
+        private const val splashScreenVersion = "1.0.0"
+        
+        const val splashScreen = "androidx.core:core-splashscreen:$splashScreenVersion"
+    }
+    
     object Compose {
         private const val composeVersion = "1.2.1"
         private const val composeActivityVersion = "1.6.0"
