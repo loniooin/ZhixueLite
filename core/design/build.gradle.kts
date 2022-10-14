@@ -5,6 +5,14 @@ plugins {
 
 android {
     compileSdk = Configurations.compileSdk
+    
+    buildFeatures {
+        compose = Configurations.composeEnabled
+    }
+    
+    composeOptions {
+        kotlinCompilerExtensionVersion = Configurations.composeCompilerVersion
+    }
 }
 
 dependencies {
