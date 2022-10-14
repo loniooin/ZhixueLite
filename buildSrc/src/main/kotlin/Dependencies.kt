@@ -9,11 +9,17 @@ object Libs {
         const val androidGradle = "com.android.tools.build:gradle:$androidGradleVersion"
     }
     
+    object Module {
+        const val coreDesign = ":core:design"
+    }
+    
     object Hilt {
         private const val hiltVersion = "2.44"
+        private const val hiltNavVersion = "1.0.0"
         
         const val hiltAndroid = "com.google.dagger:hilt-android:$hiltVersion"
         const val hiltCompiler = "com.google.dagger:hilt-compiler:$hiltVersion"
+        const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:$hiltNavVersion"
     }
     
     object AndroidX {
@@ -24,12 +30,14 @@ object Libs {
     
     object Compose {
         private const val composeVersion = "1.2.1"
+        private const val composeNavVersion = "2.5.2"
         private const val composeActivityVersion = "1.6.0"
         
         const val activity = "androidx.activity:activity-compose:$composeActivityVersion"
         const val material = "androidx.compose.material:material:$composeVersion"
         const val uiTooling = "androidx.compose.ui:ui-tooling:$composeVersion"
         const val animation = "androidx.compose.animation:animation:$composeVersion"
+        const val navigation = "androidx.navigation:navigation-compose:$composeNavVersion"
     }
     
     object Retrofit {
